@@ -9,7 +9,6 @@ Features
     Responsive design for mobile, tablet, and desktop.
     Sections include:
         About Me
-        Skills
         Projects
         Contact
 
@@ -24,15 +23,14 @@ How to Use
 Technologies Used
 
     HTML5
-    CSS3 (with Flexbox and Grid for layout)
+    CSS3
 
 Contact
 
 Feel free to reach out to me:
 
     GitHub
-    Email: mariohmisgmail.com
-
+    Email: mariohmis@gmail.com
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -47,7 +45,6 @@ Características
     Diseño responsivo para móvil, tableta y escritorio.
     Secciones incluidas:
         Sobre mí
-        Habilidades
         Proyectos
         Contacto
 
@@ -62,12 +59,11 @@ Cómo Usarlo
 Tecnologías Utilizadas
 
     HTML5
-    CSS3 (con Flexbox y Grid para el diseño)
+    CSS3
 
 Contacto
 
 No dudes en contactarme:
 
     GitHub
-    Correo: mariohmisgmail.com
-
+    Correo: mariohmis@mail.com
