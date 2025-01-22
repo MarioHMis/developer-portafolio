@@ -1,9 +1,15 @@
+/*Fonts Import*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
 /* Custom properties/variables  */
 :root {
-  --main-white: #f0f0f0;
-  --main-red: #be3144;
-  --main-blue: #45567d;
-  --main-gray: #303841;
+  --main-beige: #e2e2b6;
+  --main-navy: #03346e;
+  --main-blue: #6eacda;
+  --main-black: #303841;
+  --main-font: "Raleway", sans-serif;
+  --secondary-font: "Poppins", sans-serif;
 }
 
 /* Base reset */
@@ -69,16 +75,16 @@ html {
 /* Base styles */
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--secondary-font);
   font-size: 1.8rem; /* 18px */
   font-weight: 400;
   line-height: 1.4;
-  color: var(--main-white);
+  color: var(--main-beige);
 }
 
 h1,
 h2 {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--main-font);
   font-weight: 700;
   text-align: center;
 }
@@ -97,7 +103,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: var(--main-white);
+  color: var(--main-beige);
 }
 
 img {
@@ -114,7 +120,7 @@ img {
   top: 0;
   left: 0;
   width: 100%;
-  background: var(--main-red);
+  background: var(--main-navy);
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
   z-index: 10;
 }
@@ -161,7 +167,7 @@ img {
   font-size: 3rem;
   font-weight: 200;
   font-style: italic;
-  color: var(--main-red);
+  color: var(--main-blue);
 }
 
 /* Projects section */
@@ -175,7 +181,7 @@ img {
 .projects-section-header {
   max-width: 640px;
   margin: 0 auto 6rem auto;
-  border-bottom: 0.2rem solid var(--main-white);
+  border-bottom: 0.2rem solid var(--main-beige);
 }
 
 @media (max-width: 28.75em) {
@@ -206,13 +212,13 @@ img {
 }
 
 .project {
-  background: var(--main-gray);
+  background: var(--main-black);
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   border-radius: 2px;
 }
 
 .code {
-  color: var(--main-gray);
+  color: var(--main-black);
   transition: color 0.3s ease-out;
 }
 
@@ -239,12 +245,12 @@ img {
 
 .btn-show-all {
   font-size: 2rem;
-  background: var(--main-gray);
+  background: var(--main-black);
   transition: background 0.3s ease-out;
 }
 
 .btn-show-all:hover {
-  background: var(--main-red);
+  background: var(--main-navy);
 }
 
 .btn-show-all:hover > i {
@@ -268,7 +274,7 @@ img {
   width: 100%;
   height: 80vh;
   padding: 0 2rem;
-  background: var(--main-gray);
+  background: var(--main-black);
 }
 
 .contact-section-header > h2 {
@@ -311,8 +317,8 @@ footer {
   display: flex;
   justify-content: space-evenly;
   padding: 2rem;
-  background: var(--main-gray);
-  border-top: 4px solid var(--main-red);
+  background: var(--main-black);
+  border-top: 4px solid var(--main-navy);
 }
 
 footer > p {
